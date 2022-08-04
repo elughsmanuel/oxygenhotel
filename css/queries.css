@@ -1,0 +1,236 @@
+/* -- MEDIA QUERY -- */
+
+/* -- SMALL DESKTOP -- */
+@media only screen and (max-width: 1200px) {
+    .box {
+        padding: 0 2%;
+    }
+}
+
+/* -- BIG TABLETS -- */
+@media only screen and (max-width: 1023px) {
+    html {
+        font-size: 56.25%;
+    }
+    .image-box-bg {
+        height: 37rem;
+        margin-top: 5rem;
+    }
+    .heading-tertiary span {
+        font-size: 2.5rem;
+    }
+    .gallery-box-item img {
+        transform: scale(1);
+        opacity: 1;
+    }
+    .services-image {
+        margin-top: 4rem;
+    }
+    .contact-form label {
+        font-size: 1.4rem;
+    }
+    .information-list li span {
+        font-size: 1.4rem;
+    }
+}
+
+/* -- SMALL TABLETS -- */
+@media only screen and (max-width: 767px) {
+    html {
+        font-size: 50%;
+    }
+    section {
+        padding: 4rem 0;
+    }
+    .box {
+        padding: 0 3%;
+        flex-direction: column;
+    }
+    .footer-box-content {
+        flex-direction: column;
+    }
+    .box-1-of-2 {
+        flex-basis: 100%;
+    }
+    
+    .box-1-of-3 {
+        flex-basis: 100%;
+        margin-bottom: 5rem;
+    }
+    
+    .box-2-of-3 {
+        flex-basis: 100%;
+    }
+    .box-1-of-2-order {
+        order: 1;
+    }
+    .heading-secondary {
+        font-size: 3rem;
+        margin-bottom: 3.5rem;
+    }
+    .heading-secondary::after {
+        width: 10rem;
+        height: 1.5px;
+        margin-top: 1.5rem;
+    }
+    .heading-tertiary {
+        font-size: 2.5rem;
+    }
+    .heading-tertiary span {
+        font-size: 2.5rem;
+    }
+    .long-copy {
+        font-size: 1.5rem;
+    }
+    nav {
+        padding: 2rem 0;
+        align-items: start;
+    }
+    .logo {
+        width: 15rem;
+        height: auto;
+    }
+    .logo-black {
+        width: 15rem;
+        height: auto;
+    }
+    .main-nav {
+        display: none;
+        padding-left: 5rem;
+    }
+    .main-nav li {
+        padding-bottom: 1rem;
+    }
+    .mobile-nav-icon {
+        display: inline-block;
+    }
+    .heading-primary-main {
+        font-size: 5rem;
+        letter-spacing: 2.5px;
+    }
+    .heading-primary-sub {
+        font-size: 2.5rem;
+        letter-spacing: 1px;
+        line-height: 3rem;
+    }
+    .hero-text-box .btn:link, .btn:visited {
+        font-size: 1.5rem;
+        padding: 1rem 3rem;
+    }
+    .image-box-bg {
+        height: 45rem;
+        margin-top: 0;
+    }
+    .image-bg {
+        width: 95%;
+    }
+    .image-box-bg img {
+        width: 95%;
+    }
+    .about-us-content {
+        padding: 3rem 0;
+    }
+    .feature-box-list li {
+        margin-bottom: 0px;
+    }
+    .services-image {
+        margin-top: 0rem;
+    }
+    .services-content {
+        padding: 3rem 0;
+    }
+    .gallery-box {
+        gap: 1rem;
+    }
+    .contact-form label {
+        font-size: 1.5rem;
+    }
+    .contact-form input,
+    select, textarea {
+        font-size: 1.5rem;
+    padding: 1rem;
+    }
+    .contact-form textarea {
+    height: 7rem;
+    }
+    .get-in-touch div:last-child {
+        margin-bottom: 5rem;
+    }
+    .btn:link, .btn:visited .btn-sm {
+        padding: 1rem 3rem;
+    }
+    .btn-ghost:link, .btn-ghost:visited {
+    border: 2px solid var(--color-primary);
+    }
+    .btn-ghost:hover, .btn-ghost:active {
+    border: 2px solid var(--color-primary-dark);
+    }
+    .information-list li {
+        margin-bottom: 0;
+    }
+    .information-list li span {
+        font-size: 1.8rem;
+        margin-left: 3rem;
+    }
+    .logo-small img {
+        width: 10rem;
+        margin-bottom: 2.5rem;
+    }
+    .footer-box {
+        padding: 2rem 0;
+    }
+    .footer-box-items {
+        margin-bottom: 2rem;
+    }
+    .footer-box-list {
+        margin-right: 5rem;
+    }
+    .copyright-content p {
+        font-size: 1.2rem;
+    }
+    .footer-copyright {
+        padding: 1.5rem 0;
+    }
+    .footer-copyright p {
+        font-size: 1.2rem;
+    }
+}
+
+/* -- PHONES -- */
+@media only screen and (max-width: 479px) {
+    html {
+        font-size: 43.75%;
+    }
+    .box {
+        padding: 0 4%;
+    }
+    .heading-secondary {
+        font-size: 3rem;
+        margin-bottom: 2.5rem;
+    }
+    .heading-primary-main {
+        font-size: 5.5rem;
+        letter-spacing: 1.5px;
+        margin-bottom: 0;
+    }
+    .heading-primary-sub {
+        font-size: 2rem;
+        letter-spacing: .5px;
+        line-height: 2.5rem;
+    }
+    .heading-btn-con {
+        width: 100%;
+    }
+    .btn:link, .btn:visited .btn-sm {
+        padding: 1rem 3rem;
+    }
+    .btn-ghost:link, .btn-ghost:visited {
+    border: 1px solid var(--color-primary);
+    }
+    .btn-ghost:hover, .btn-ghost:active {
+    border: 1px solid var(--color-primary-dark);
+    }
+    .image-box-bg {
+        height: 30rem;
+    }
+}
